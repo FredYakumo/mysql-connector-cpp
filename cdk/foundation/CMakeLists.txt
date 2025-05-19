@@ -30,7 +30,7 @@
 #
 # Detect required std features.
 #
-
+cmake_minimum_required(VERSION 3.5)
 set(CMAKE_REQUIRED_FLAGS "${CMAKE_REQUIRED_FLAGS} -std=c++17")
 
 include(CheckCXXSourceCompiles)

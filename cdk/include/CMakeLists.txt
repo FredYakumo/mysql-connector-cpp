@@ -33,7 +33,7 @@
 # see headers.cmake for explanations how project's public
 # headers are declared and processed.
 #
-
+cmake_minimum_required(VERSION 3.5)
 INCLUDE(headers)
 
 SETUP_HEADERS(${CMAKE_CURRENT_SOURCE_DIR}/mysql)

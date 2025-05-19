@@ -29,7 +29,7 @@
 #
 #  DevAPI Implementation
 #
-
+cmake_minimum_required(VERSION 3.5)
 file(GLOB HEADERS *.h)
 
 add_library(devapi STATIC

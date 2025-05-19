@@ -27,7 +27,7 @@
 # 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
 
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.5)
 cmake_policy(SET CMP0022 NEW)
 
 #set_property(GLOBAL PROPERTY GLOBAL_DEPENDS_DEBUG_MODE ON)

@@ -29,7 +29,7 @@
 # Note: Version 3.15 is required becausae package build instructions
 # depend on cmake recognizing --install opton.
 
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.5)
 
 project(MySQL_CONCPP_Packages)
 

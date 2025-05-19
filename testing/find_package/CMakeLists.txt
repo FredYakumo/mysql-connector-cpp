@@ -32,7 +32,7 @@
 # included in our packages works as expected. See README.txt for more details.
 #
 
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.5)
 
 set(HOME_DIR "${CMAKE_CURRENT_LIST_DIR}" CACHE PATH INTERNAL)
 set(SRC_DIR "${HOME_DIR}/../..")

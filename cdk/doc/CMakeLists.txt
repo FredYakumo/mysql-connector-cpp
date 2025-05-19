@@ -33,7 +33,7 @@
 #
 # TODO: Detect Sphinx installation.
 #
-
+cmake_minimum_required(VERSION 3.5)
 IF(NOT DEFINED WITH_DOC)
   OPTION(WITH_DOC "Build Project's documentation" ON)
 ENDIF()

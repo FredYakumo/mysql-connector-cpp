@@ -32,5 +32,5 @@
 # When we support different protocols we will have several implementations
 # but at the moment there is only one, using the MySQL X Protocol.
 #
-
+cmake_minimum_required(VERSION 3.5)
 add_subdirectory(mysqlx)

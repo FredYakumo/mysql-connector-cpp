@@ -6,9 +6,9 @@
 # LICENSE file in the root directory of this source tree) and the GPLv2 (found
 # in the COPYING file in the root directory of this source tree).
 # ################################################################
+cmake_minimum_required(VERSION 3.5)
 
 PROJECT(zstd)
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8.9)
 
 include(../setup.cmake)
 include(platform)
